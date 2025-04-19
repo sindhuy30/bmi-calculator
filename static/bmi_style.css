@@ -1,0 +1,71 @@
+body {
+    background-color: #f0f4f8; /* Light pastel blue */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: #a67cba; /* Pastel purple */
+    text-align: center;
+}
+
+.main {
+    background-color: #ffffff; /* White for contrast */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.pure-form {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    border: 1px solid #dcdcdc; /* Light gray border */
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(100% - 22px);
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #ffb74d; /* Pastel orange on focus */
+}
+
+.pure-button {
+    background-color: #64b5f6; /* Pastel blue */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.pure-button:hover {
+    background-color: #42a5f5; /* Slightly darker blue on hover */
+}
+
+#bmiChart {
+    background-color: #e1f5fe; /* Very light pastel blue */
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #b3e5fc; /* Light blue border */
+    margin-top: 10px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #7e57c2; /* Pastel purple */
+}
+
+p {
+    text-align: center;
+    color: #5d6d7e; /* Soft gray for text */
+}
+

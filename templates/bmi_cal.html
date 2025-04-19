@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Sindhu’s BMI Calculator</title>
+
+  <!-- PureCSS -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls"
+        crossorigin="anonymous">
+  <!-- Local stylesheet -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='bmi_style.css') }}">
+</head>
+
+<body>
+  <h1>BMI Calculator</h1>
+
+  <div class="main">
+    <form class="pure-form" method="post">
+      Enter your weight in kg:<br>
+      <input type="text" name="weight"><br>
+      Enter your height in cm:<br>
+      <input type="text" name="height"><br>
+      <button type="submit"
+              class="pure-button pure-button-primary">Submit</button>
+    </form>
+  </div>
+
+  {% if bmi %}
+    <br>
+    <div class="main">
+      <p>Your BMI is: {{ bmi }}</p>
+      <details>
+        <summary>BMI CHART</summary>
+        <div id="bmiChart">
+          <p>Underweight: &lt; 18.5</p>
+          <p>Normal weight: 18.5 – 24.9</p>
+          <p>Overweight: 25 – 29.9</p>
+          <p>Obese: ≥ 30</p>
+        </div>
+      </details>
+      <p>Thanks for checking my BMI calculator.<br>Take care of your health. Bye!</p>
+    </div>
+  {% endif %}
+</body>
+</html>

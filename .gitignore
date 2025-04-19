@@ -1,0 +1,17 @@
+# Byte‑compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# OS & editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Environment variables, secrets, etc.
+*.env
