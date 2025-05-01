@@ -1,6 +1,6 @@
 # Sindhu’s BMI Calculator
 
-A tiny Flask-powered web app that takes your weight (in kilograms) and height (in centimeters), crunches the numbers, and tells you your BMI—fast and simple.
+A simple web-based BMI calculator built with Flask, allowing users to input their weight and height to determine their Body Mass Index.
 
 ## Quick start
 
