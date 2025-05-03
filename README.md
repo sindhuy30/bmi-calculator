@@ -1,6 +1,6 @@
 # Sindhu’s BMI Calculator
 
-
+A simple web-based BMI calculator built with Flask, allowing users to input their weight and height to determine their Body Mass Index.
 
 ## Quick start
 
